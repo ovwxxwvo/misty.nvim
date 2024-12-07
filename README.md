@@ -17,6 +17,7 @@ The following config file path base on `Arch Linux`.
 #### Install with package manager 包管理器安装  
 
 ##### [lazy.nvim](https://github.com/folke/lazy.nvim)  
+
 ```lua  
 {"ovwxxwvo/misty.nvim"}  
 ```  
