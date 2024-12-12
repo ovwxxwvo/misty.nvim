@@ -30,8 +30,13 @@ require("misty")
 
 Clone the repo to your nvim config dir :  
 ```  
-git clone https://github.com/ovwxxwvo/misty.nvim.git ~/.config/nvim/colors/  
-ln -s ~/.config/nvim/colors/misty.nvim/lua/misty /home/oo/.config/nvim/lua  
+cd ~/.config/nvim/colors/  
+git clone https://github.com/ovwxxwvo/misty.nvim.git  
+```  
+Link the color scheme dir :  
+```  
+cd ~/.config/nvim/lua  
+ln -sf ../colors/misty.nvim/lua/misty ./  
 ```  
 Add this line to your nvim config file `~/.config/nvim/init.lua` :  
 ```  
